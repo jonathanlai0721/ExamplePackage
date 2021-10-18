@@ -17,6 +17,6 @@ line_plot <- function(df, varx, vary){
                size = 3) +
     labs(x = "X axis",
          y = "Y axis",
-         title = "Line Plots")
-    + theme(plot.title = element_text(hjust = 0.5))
+         title = "Line Plots")+
+    theme(plot.title = element_text(hjust = 0.5))
 }
