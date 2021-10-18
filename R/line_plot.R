@@ -4,8 +4,11 @@
 #' @param varx hh
 #' @param vary hhe
 #'
-#' @return
+#' @return tts
 #' @export
+#'
+#' @importFrom ggplot2 ggplot
+#' @importFrom ggplot2 geom_point
 #'
 #' @examples
 line_plot <- function(df, varx, vary){
