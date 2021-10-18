@@ -11,6 +11,9 @@
 #' @importFrom ggplot2 geom_point
 #'
 #' @examples
+#'
+#' testing only
+#'
 line_plot <- function(df, varx, vary){
   ggplot(df, aes(x = get(varx), y = get(vary))) +
     geom_line( color = "red",
